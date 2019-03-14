@@ -22,8 +22,6 @@ python3 Main.py
 ```console
 deactivate
 rm -r env/ __pycache__/
-sudo apt remove python3 python3-venv
-sudo apt autoremove
 ```
 
 ## Controls
