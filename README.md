@@ -4,24 +4,24 @@ Basic Implementation of the game Space Invaders using `pygame` library in python
 
 ## How to run
 * Run all the commands in one terminal tab
-* Create a virtual environment
+* Install python3 and python3-venv
 ```console
 sudo apt install python3 python3-venv
+```
+* Create a virtual environment, activate the environment and install dependencies
+```console
 python3 -m venv env
-```
-* Activate the environment and install dependencies
-```console
 source env/bin/activate
-python3 -m pip install -r requirements.txt
+pip install --upgrade pip && pip install -r requirements.txt
 ```
-* To play
+* Play the game
 ```console
-python3 Main.py
+python3 src/Main.py
 ```
-* After finished playing, clean up
+* After finishing playing, deactivate environment and clean up
 ```console
 deactivate
-rm -r env/ __pycache__/
+rm -r env/ src/__pycache__/
 ```
 
 ## Controls
